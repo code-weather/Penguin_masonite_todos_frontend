@@ -31,7 +31,7 @@ function App() {
 
   const navigate = useNavigate()
 
-  const url = "https://penguin-mason-backend.herokuapp.com/todos/"
+  const url = "https://penguin-mason-todos-backend.herokuapp.com/todos/"
 
   // State to hold list of todos
   const [posts, setPosts] = useState([])
